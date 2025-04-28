@@ -159,7 +159,7 @@ class Trade:
                  round, pick, and computed value.
         """
         return (
-            f"{self.gave} → {self.received}, "
+            f"{self.gave} → {self.received} in {self.season}, "
             f"round {self.pick_round} pick {self.pick_number} "
             f"→ value {self.value}"
         )
